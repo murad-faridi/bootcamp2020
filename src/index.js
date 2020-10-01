@@ -7,12 +7,10 @@ function Hi(){
 				Hello <strong>Murad!</strong>
 				<h3>Your Work List:</h3>
 				<ul>
-					{ for (var i = 1; i <= 4; i++) { }
-						<li>{i} SASA Subscription</li>
-						<li>{i} Handle Orders</li>
-						<li>{i} Distribute DSB</li>
-						<li>{i} Handle Products</li>
-					{ } }
+					<li>SASA Subscription</li>
+					<li>Handle Orders</li>
+					<li>Distribute DSB</li>
+					<li>Handle Products</li>
 				</ul>
 			</div>
 }
