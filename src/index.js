@@ -5,12 +5,14 @@ import './index.css';
 function Hi(){
 	return 	<div>
 				Hello <strong>Murad!</strong>
-				<h3>Your Work List:{1+1+1+1}</h3>
+				<h3>Your Work List:</h3>
 				<ul>
-					<li>SASA Subscription</li>
-					<li>Handle Orders</li>
-					<li>Distribute DSB</li>
-					<li>Handle Products</li>
+					{ for (var i = 1; i <= 4; i++) { }
+						<li>{i} SASA Subscription</li>
+						<li>{i} Handle Orders</li>
+						<li>{i} Distribute DSB</li>
+						<li>{i} Handle Products</li>
+					{ } }
 				</ul>
 			</div>
 }
