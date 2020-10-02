@@ -60,6 +60,7 @@ function Reddit() {
 	}, []); // pass empty array [] as the second argument to useEffect so that the effect not run on every render. 
 	// The useEffect hook will only queue up the effect another time if something in this array changes, and, since the array is empty, 
 	// this effect will only run ONCE after the component renders the first time.
+	// If we don’t pass the array at all, then the effect will run on every render. As in this case it’ll re-run the effect after we call setPosts.
 
 	return (
 		<div>
